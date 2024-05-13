@@ -1,8 +1,8 @@
 // L'utente inserisce due numeri in successione, con due prompt.
 // Il software stampa il maggiore.
 
-const num1 = prompt('inserire numero 1');
-const num2 = prompt('inserire numero 2');
+const num1 = Number.parseInt( prompt('inserire numero 1'), 10);
+const num2 = Number.parseInt(prompt('inserire numero 2'));
 
 if (num1 > num2) {
     console.log(num1);
