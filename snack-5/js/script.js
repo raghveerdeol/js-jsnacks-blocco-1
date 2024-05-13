@@ -4,7 +4,7 @@
 
 const y = [];
 for (let index = 0; index <= 5; index++) {
-    const element = prompt("inserire un numero");
+    const element = Number.parseInt(prompt("inserire un numero"), 10);
     if (element % 2 == 1) {
         y.push(element);
         console.log(y);
