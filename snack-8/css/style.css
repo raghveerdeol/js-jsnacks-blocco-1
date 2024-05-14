@@ -1,7 +1,13 @@
+body{
+    background-color: rgb(148, 102, 192);
+    font-size: 2rem;
+}
+main{
+    text-align: center;
+}
 .red{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    color: white;
-
+    color: red;
+}
+.green{
+    color: green;
 }
