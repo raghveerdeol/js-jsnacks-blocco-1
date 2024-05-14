@@ -6,4 +6,8 @@ stampiamo nell'id rosso i numeri dispari e in verde i numeri pari. */
 
 const divRed = document.createElement("div");
 const divGreen = document.createElement("div");
-
+const main = document.querySelector("main")
+main.appendChild(divRed);
+main.appendChild(divGreen);
+divGreen.className = "green";
+divRed.className = "red";
